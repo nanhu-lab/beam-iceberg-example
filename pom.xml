@@ -19,7 +19,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.nanhulab</groupId>
+            <groupId>io.github.nanhu-lab</groupId>
             <artifactId>beam-datalake</artifactId>
             <version>1.0.0</version>
         </dependency>
