@@ -1,7 +1,5 @@
 # beam-iceberg-example
-An example to show how to make Apache Beam write data to Apache Iceberg,  and read data from Apache Iceberg.
-## Requirements
-* The [beam-datalake](https://github.com/nanhu-lab/beam-datalake) project needs to be compiled and installed first.  
+An example to show how to make Apache Beam write data to Apache Iceberg,  and read data from Apache Iceberg.  
 ## Quickstart
 Test cases are given in the BeamIcebergTest document.
 1. First, create an iceberg table using initIcebergTable(), which contains four fields: id, user_name, user_age, user_remark.
@@ -17,7 +15,7 @@ A few important dependencies are shown below, and others are seen in the pom.xml
 </properties>
 <dependencies>
     <dependency>
-        <groupId>org.nanhulab</groupId>
+        <groupId>io.github.nanhu-lab</groupId>
         <artifactId>beam-datalake</artifactId>
         <version>1.0.0</version>
     </dependency>
